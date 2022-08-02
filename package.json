@@ -1,0 +1,41 @@
+{
+  "name": "next-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehdzldxn3/next-boilerplate.git"
+  },
+  "author": "hanbyel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehdzldxn3/next-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ehdzldxn3/next-boilerplate#readme",
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@reduxjs/toolkit": "^1.8.3",
+    "antd": "^4.21.7",
+    "axios": "^0.27.2",
+    "crypto-js": "^4.1.1",
+    "next": "^12.2.0",
+    "next-images": "^1.8.4",
+    "next-plugin-antd-less": "^1.8.0",
+    "next-redux-wrapper": "^7.0.5",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "sass": "^1.54.0"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.5"
+  }
+}
