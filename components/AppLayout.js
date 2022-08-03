@@ -3,12 +3,11 @@ import { useSelector } from 'react-redux'
 // import '../styles/globals.css'
 
 
-const AppLayout = ({ children}) => {
+const AppLayout = ({children}) => {
+    
     const login = useSelector(state => state.user.loginCheck)
     return (
-        <div 
-            // style={{minHeight:'100vh'}}
-        >
+        <div>
             {children}
         </div>
     )

@@ -3,9 +3,8 @@ import PropTypes from "prop-types";
 import wrapper from '../store/configureStore';
 import '../styles/globals.css'
 import 'antd/dist/antd.css';
-import '../styles/variables.less'
 //모든 화면애서 공통적으로 임포트할 곳
-//index.js 부모
+
 
 const App = ({ Component, pageProps  }) => {
     return (
@@ -14,16 +13,11 @@ const App = ({ Component, pageProps  }) => {
             <meta charSet='utf-8'></meta>
             <title>Boilerplate</title>
         </Head>
-        
         <Component {...pageProps }/>
-        
         </>
     )
 }
-
 App.propTypes = {
     Component: PropTypes.elementType.isRequired
 }
-
 export default wrapper.withRedux(App)
-// export default App
